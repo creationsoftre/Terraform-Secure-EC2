@@ -1,5 +1,9 @@
 # Terraform-Secure-EC2
-Creating a VPC with two EC2 Instance. One Public EC2 Instance that communicates with a Private EC2 utilizing Terrafom. 
+This configuration allows you to run a public-facing web application, while maintaining back-end servers that aren't publicly accessible.
+
+Configuration diagram:
+
+![alt text](https://docs.aws.amazon.com/vpc/latest/userguide/images/scenario-ipv6-diagram_1_updated.png)
 
 Steps completed in the terrafrom script:
 1. Creates VPC, IPv4 CIDR, DNS Support & Name, and Tags
